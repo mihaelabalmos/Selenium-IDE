@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://only-testing-blog.blogspot.in/" />
+<title>verifySelectedID</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">verifySelectedID</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/2014/01/textbox.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text1</td>
+	<td>ana</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=check2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=radio2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=Carlist</td>
+	<td>label=Audi</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>name=FromLB</td>
+	<td>label=Mexico</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>name=FromLB</td>
+	<td>label=Germany</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Press 'OK' or 'Cancel' button!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Hi.. This is alert message!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>answerOnNextPrompt</td>
+	<td>ana</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@onclick='myFunctionf()']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertPrompt</td>
+	<td>Your Name Please</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifySelectedId</td>
+	<td>id=Carlist</td>
+	<td>car4</td>
+</tr>
+<tr>
+	<td>verifyNotSelectedId</td>
+	<td>id=carlist</td>
+	<td>car2</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
