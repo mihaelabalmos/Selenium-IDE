@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="../selenium homework/verifySelectedID.html">verifySelectedID</a></td></tr>
+<tr><td><a href="../selenium homework/runScript.html">runScript</a></td></tr>
+<tr><td><a href="../selenium homework/AssertTable.html">assert Table</a></td></tr>
+<tr><td><a href="../selenium homework/Wait for Checked.html">wait for checked</a></td></tr>
+<tr><td><a href="../selenium homework/wait for visible.html">Wait for visible</a></td></tr>
+<tr><td><a href="../selenium homework/verify not alert.html">Verify not alert</a></td></tr>
+<tr><td><a href="../selenium homework/Verify Selected values - this test case will fail.html">verify selected value</a></td></tr>
+<tr><td><a href="../selenium homework/text box.html">Enabling/Disabling Text Box</a></td></tr>
+<tr><td><a href="../selenium homework/assert selected ID.html">assert selected ID</a></td></tr>
+<tr><td><a href="../selenium homework/wait for editable.html">wait for editable</a></td></tr>
+</tbody></table>
+</body>
+</html>
